@@ -69,4 +69,7 @@ body {
     font-size: 20px;
     transition: all 0.3s ease-in-out;
   }
-  
+  /* this was necessary to get the actual button icon to trigger click event */
+  .saveBtn > i {
+    pointer-events: none;
+  }
