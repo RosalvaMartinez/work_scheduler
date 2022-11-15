@@ -1,6 +1,6 @@
 var date = dayjs().format("dddd, MMMM, D");//gets the current date using date js in a specific format
 var workHours = 8//number of hours in work day 
-var workStartHour = 17// decides what hour we start work day
+var workStartHour = 9// decides what hour we start work day
 var savedEvents = []//global array of events 
 
 
